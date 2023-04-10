@@ -1,0 +1,14 @@
+.checkout-product { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;  
+    background-color: var(--white);
+}
+
+.checkout-product-image {
+    object-fit: contain;
+    width: 50%;
+}
